@@ -3,7 +3,7 @@ from ancestor import earliest_ancestor
 
 class Test(unittest.TestCase):
 
-    '''
+    r'''
        10
      /
     1   2   4  11

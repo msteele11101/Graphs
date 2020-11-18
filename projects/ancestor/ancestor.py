@@ -25,7 +25,7 @@ def earliest_ancestor(ancestors, starting_node):
 
     earliest_ancestor = -1
 
-    # Perform a Breadth-First Search on the graph and return the last ancestor found
+    # Perform a Breadth-First Search on the graph and return the last ancestor found 
     queue = Queue()
     queue.enqueue(starting_node)
     while queue.size() > 0:
